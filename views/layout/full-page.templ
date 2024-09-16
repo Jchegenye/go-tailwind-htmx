@@ -1,10 +1,10 @@
 {{ define "full-page" }}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="{{ if eq .ThemeClass "dark" }}dark{{ end }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Title }}</title>
+    <title>{{.Title}} | {{.SiteName}}</title>
     <link href="/dist/output.css" rel="stylesheet"> <!-- Link to the global styles -->
     <!-- Ensure this is the final CSS file included -->
     <link href="/styles/tailwind.css" rel="stylesheet">

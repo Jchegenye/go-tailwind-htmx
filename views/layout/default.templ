@@ -1,20 +1,23 @@
 {{ define "default" }}
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" class="{{ if eq .ThemeClass "dark" }}dark{{ end }}">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{.Title}}</title>
+    <title>{{.Title}} | {{.SiteName}}</title>
     <link href="/dist/output.css" rel="stylesheet"> <!-- Link to the global styles -->
     <!-- Ensure this is the final CSS file included -->
     <link href="/styles/tailwind.css" rel="stylesheet">
-</head>
-<body class="{{ .ThemeClass }}">
+  </head>
+  <body class="min-h-screen flex flex-col">
+    {{ if not .HiddenBanner }}
+      {{ template "top-banner" . }}
+    {{ end }}
     {{ template "header" . }}
-    <main class="container">
-        {{ template "content" . }}
+    <main class="my-3 mx-3 flex-grow"> <!-- container -->
+      {{ template "content" . }}
     </main>
     {{ template "footer" . }}
-</body>
+  </body>
 </html>
 {{ end }}

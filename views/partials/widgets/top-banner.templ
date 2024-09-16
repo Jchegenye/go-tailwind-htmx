@@ -1,5 +1,15 @@
-{{ define "footer" }}
-<div class="bg-red-700 text-white">
-  <p>Top Banner</p>
-</div>
+{{ define "top-banner" }}
+  {{ if not .HideBanner }}
+  <section class="flex justify-between items-start md:items-center space-x-2 bg-secondary text-secondary-foreground px-3 py-2 lg:p-2 w-full">
+    <p class="font-normal text-sm text-xs flex-grow text-left md:text-center">Free delivery for orders above KES 499 valid for 00 Hrs 39 Min 22 Secs</p>
+    
+    <!-- Button element with SVG -->
+    <button type="button" class="cursor-pointer bg-transparent border-none pt-1 lg:p-0" onclick="location.href='/hide-banner'">
+      <svg class="w-2.5 h-2.5" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+      	<path stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="m1 1l12 12"/>
+      	<path stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="m13 1l-12 12"/>
+      </svg>
+    </button>
+  </section>
+  {{ end }}
 {{ end }}

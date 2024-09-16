@@ -1,6 +1,7 @@
 {{define "content"}}
-  <h2 class="text-3xl">{{.Title}}</h2>
-  <p class="mt-4">{{.Description}}</p>
+  <h1 class="text-2xl font-bold">{{.Title}} - Content section</h1>
+  <div class="border mt-2"></div>
+  <p class="mt-2 font-thin">{{.Description}}</p>
 {{end}}
 {{ define "layout" }}
 {{ template "default" . }}

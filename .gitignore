@@ -19,7 +19,8 @@ public/dist/output.css
 public/dist/output.css.map
 
 # Air-related files
-tmp/                # Air creates a tmp directory for hot reload files
+tmp/*          # Air creates a tmp directory for hot reload files
+!tmp/.gitkeep  # Keeps the directory               
 
 # Dependency directories
 npm-debug.log

@@ -3,6 +3,18 @@
 /go-tailwind-htmx
 |-- /cmd
 |   |-- main.go              <-- Main Go file
+├── /internal
+│   ├── /handlers
+│   │   ├── handlers.go
+│   │
+│   ├── /middleware
+│   │   ├── middleware.go
+│   │
+│   ├── /templates
+│   │   ├── template.go
+│   │
+│   ├── /contextkeys
+│   │   ├── contextkeys.go
 |-- /views
 |   |-- /layout
 |       |-- default.templ
@@ -21,7 +33,6 @@
 |       |-- tailwind.css     <-- Source Tailwind CSS
 |-- go.mod
 |-- go.sum
-|-- package.json
 |-- postcss.config.js
 |-- tailwind.config.js
 

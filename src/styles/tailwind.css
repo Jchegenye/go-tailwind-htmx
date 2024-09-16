@@ -7,16 +7,20 @@
   :root {
     --background: 255, 0%, 100%;
     --foreground: 0deg 0% 0.39%;
-    --primary: 86.84deg 70.37% 31.76%;
-    --primary-foreground: 210, 40%, 98.04%;
+    --primary: 0deg 80.91% 52.75%;
+    --primary-foreground: 255, 0%, 100%;
+    --secondary: 0deg 0% 0.39%;
+    --secondary-foreground: 255, 0%, 100%;
     --border: 0deg 0% 0.39%;
   }
   .dark {
-    --background: 0deg 0% 0.39%;
+    --background: 220deg, 20%, 15%; 
     --foreground: 208, 100%, 97.06%;
-    --primary: 86.84, 70.37%, 31.76%;
-    --primary-foreground: 210, 40%, 98.04%;
-    --border: 215.29, 25%, 26.67%;
+    --primary: 0deg 80.91% 52.75%;
+    --primary-foreground: 255, 0%, 100%;
+    --secondary: 0deg 0% 0.39%;
+    --secondary-foreground: 255, 0%, 100%;
+    --border: 215.29deg 25% 26.67%;
   }
 }
 @layer base {
