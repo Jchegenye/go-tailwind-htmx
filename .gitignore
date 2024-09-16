@@ -1,0 +1,42 @@
+# Go build artifacts
+/bin/
+/cmd/
+/pkg/
+/vendor/
+/dist/
+/build/
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Go test artifacts
+*.test
+
+# Tailwind output files
+public/dist/output.css
+public/dist/output.css.map
+
+# Air-related files
+tmp/                # Air creates a tmp directory for hot reload files
+
+# Dependency directories
+npm-debug.log
+yarn-error.log
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Task-related files
+*.task
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor specific
+.vscode/
+.idea/

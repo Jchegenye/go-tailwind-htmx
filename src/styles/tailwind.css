@@ -1,0 +1,29 @@
+/* Tailwind Source Files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 255, 0%, 100%;
+    --foreground: 0deg 0% 0.39%;
+    --primary: 86.84deg 70.37% 31.76%;
+    --primary-foreground: 210, 40%, 98.04%;
+    --border: 0deg 0% 0.39%;
+  }
+  .dark {
+    --background: 0deg 0% 0.39%;
+    --foreground: 208, 100%, 97.06%;
+    --primary: 86.84, 70.37%, 31.76%;
+    --primary-foreground: 210, 40%, 98.04%;
+    --border: 215.29, 25%, 26.67%;
+  }
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

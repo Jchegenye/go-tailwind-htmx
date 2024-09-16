@@ -1,0 +1,22 @@
+version: '3'
+
+tasks:
+  dev:
+    desc: "Run air and tailwindcss in parallel"
+    deps:
+      - dev:air
+      - dev:tailwind
+    cmds: []
+
+  dev:air:
+    desc: "Run air"
+    cmds:
+      - air
+
+  dev:tailwind:
+    desc: "Run tailwindcss in watch mode"
+    cmds:
+      - npx tailwindcss -i ./src/styles/tailwind.css -o ./public/dist/output.css --watch
+    sources:
+      - src/styles/**/*.css
+    silent: true

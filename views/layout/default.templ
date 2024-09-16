@@ -1,0 +1,20 @@
+{{ define "default" }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.Title}}</title>
+    <link href="/dist/output.css" rel="stylesheet"> <!-- Link to the global styles -->
+    <!-- Ensure this is the final CSS file included -->
+    <link href="/styles/tailwind.css" rel="stylesheet">
+</head>
+<body class="{{ .ThemeClass }}">
+    {{ template "header" . }}
+    <main class="container">
+        {{ template "content" . }}
+    </main>
+    {{ template "footer" . }}
+</body>
+</html>
+{{ end }}

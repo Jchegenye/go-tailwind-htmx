@@ -1,0 +1,18 @@
+{{ define "full-page" }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+    <link href="/dist/output.css" rel="stylesheet"> <!-- Link to the global styles -->
+    <!-- Ensure this is the final CSS file included -->
+    <link href="/styles/tailwind.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+    {{ block "content" . }}{{ end }}
+    </main>
+</body>
+</html>
+{{ end }}

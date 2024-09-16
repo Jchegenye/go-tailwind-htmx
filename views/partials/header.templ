@@ -1,0 +1,17 @@
+{{ define "header" }}
+<header class="bg-red-700 text-white">
+    <h1>{{.Title}} - {{.SiteName}}</h1>
+    <nav class="text-green-600">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        
+        <div>
+          {{ if eq .ThemeClass "dark" }}
+            <a href="/?theme=light">Light Theme</a>
+          {{ else }}
+            <a href="/?theme=dark">Dark Theme</a>
+          {{ end }}
+        </div>
+    </nav>
+</header>
+{{ end }}

@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'A2 Gothic';
+    src: url('A2Gothic-Black.eot');
+    src: local('A2 Gothic Black'), local('A2Gothic-Black'),
+        url('A2Gothic-Black.eot?#iefix') format('embedded-opentype'),
+        url('A2Gothic-Black.woff2') format('woff2'),
+        url('A2Gothic-Black.woff') format('woff'),
+        url('A2Gothic-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic';
+    src: url('A2Gothic-Bold.eot');
+    src: local('A2 Gothic Bold'), local('A2Gothic-Bold'),
+        url('A2Gothic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('A2Gothic-Bold.woff2') format('woff2'),
+        url('A2Gothic-Bold.woff') format('woff'),
+        url('A2Gothic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic Condensed';
+    src: url('A2GothicCondensed-Bold.eot');
+    src: local('A2 Gothic Condensed Bold'), local('A2GothicCondensed-Bold'),
+        url('A2GothicCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('A2GothicCondensed-Bold.woff2') format('woff2'),
+        url('A2GothicCondensed-Bold.woff') format('woff'),
+        url('A2GothicCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic Condensed';
+    src: url('A2GothicCondensed-Regular.eot');
+    src: local('A2 Gothic Condensed Regular'), local('A2GothicCondensed-Regular'),
+        url('A2GothicCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('A2GothicCondensed-Regular.woff2') format('woff2'),
+        url('A2GothicCondensed-Regular.woff') format('woff'),
+        url('A2GothicCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic Condensed';
+    src: url('A2GothicCondensed-Heavy.eot');
+    src: local('A2 Gothic Condensed Heavy'), local('A2GothicCondensed-Heavy'),
+        url('A2GothicCondensed-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('A2GothicCondensed-Heavy.woff2') format('woff2'),
+        url('A2GothicCondensed-Heavy.woff') format('woff'),
+        url('A2GothicCondensed-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic Condensed';
+    src: url('A2GothicCondensed-SemiBold.eot');
+    src: local('A2 Gothic Condensed SemiBold'), local('A2GothicCondensed-SemiBold'),
+        url('A2GothicCondensed-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('A2GothicCondensed-SemiBold.woff2') format('woff2'),
+        url('A2GothicCondensed-SemiBold.woff') format('woff'),
+        url('A2GothicCondensed-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic X Condensed';
+    src: url('A2GothicXCondensed-Heavy.eot');
+    src: local('A2 Gothic X Condensed Heavy'), local('A2GothicXCondensed-Heavy'),
+        url('A2GothicXCondensed-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('A2GothicXCondensed-Heavy.woff2') format('woff2'),
+        url('A2GothicXCondensed-Heavy.woff') format('woff'),
+        url('A2GothicXCondensed-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic';
+    src: url('A2Gothic-SemiBold.eot');
+    src: local('A2 Gothic SemiBold'), local('A2Gothic-SemiBold'),
+        url('A2Gothic-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('A2Gothic-SemiBold.woff2') format('woff2'),
+        url('A2Gothic-SemiBold.woff') format('woff'),
+        url('A2Gothic-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic';
+    src: url('A2Gothic-Thin.eot');
+    src: local('A2 Gothic Thin'), local('A2Gothic-Thin'),
+        url('A2Gothic-Thin.eot?#iefix') format('embedded-opentype'),
+        url('A2Gothic-Thin.woff2') format('woff2'),
+        url('A2Gothic-Thin.woff') format('woff'),
+        url('A2Gothic-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic X Condensed';
+    src: url('A2GothicXCondensed-Bold.eot');
+    src: local('A2 Gothic X Condensed Bold'), local('A2GothicXCondensed-Bold'),
+        url('A2GothicXCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('A2GothicXCondensed-Bold.woff2') format('woff2'),
+        url('A2GothicXCondensed-Bold.woff') format('woff'),
+        url('A2GothicXCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic Mono';
+    src: url('A2GothicMono-Thin.eot');
+    src: local('A2 Gothic Mono Thin'), local('A2GothicMono-Thin'),
+        url('A2GothicMono-Thin.eot?#iefix') format('embedded-opentype'),
+        url('A2GothicMono-Thin.woff2') format('woff2'),
+        url('A2GothicMono-Thin.woff') format('woff'),
+        url('A2GothicMono-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic';
+    src: url('A2Gothic-Light.eot');
+    src: local('A2 Gothic Light'), local('A2Gothic-Light'),
+        url('A2Gothic-Light.eot?#iefix') format('embedded-opentype'),
+        url('A2Gothic-Light.woff2') format('woff2'),
+        url('A2Gothic-Light.woff') format('woff'),
+        url('A2Gothic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic X Condensed';
+    src: url('A2GothicXCondensed-Medium.eot');
+    src: local('A2 Gothic X Condensed Medium'), local('A2GothicXCondensed-Medium'),
+        url('A2GothicXCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('A2GothicXCondensed-Medium.woff2') format('woff2'),
+        url('A2GothicXCondensed-Medium.woff') format('woff'),
+        url('A2GothicXCondensed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic';
+    src: url('A2Gothic-Regular.eot');
+    src: local('A2 Gothic Regular'), local('A2Gothic-Regular'),
+        url('A2Gothic-Regular.eot?#iefix') format('embedded-opentype'),
+        url('A2Gothic-Regular.woff2') format('woff2'),
+        url('A2Gothic-Regular.woff') format('woff'),
+        url('A2Gothic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic Condensed';
+    src: url('A2GothicCondensed-Medium.eot');
+    src: local('A2 Gothic Condensed Medium'), local('A2GothicCondensed-Medium'),
+        url('A2GothicCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('A2GothicCondensed-Medium.woff2') format('woff2'),
+        url('A2GothicCondensed-Medium.woff') format('woff'),
+        url('A2GothicCondensed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic';
+    src: url('A2Gothic-ExtraBold.eot');
+    src: local('A2 Gothic ExtraBold'), local('A2Gothic-ExtraBold'),
+        url('A2Gothic-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('A2Gothic-ExtraBold.woff2') format('woff2'),
+        url('A2Gothic-ExtraBold.woff') format('woff'),
+        url('A2Gothic-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic X Condensed';
+    src: url('A2GothicXCondensed-SemiBold.eot');
+    src: local('A2 Gothic X Condensed SemiBold'), local('A2GothicXCondensed-SemiBold'),
+        url('A2GothicXCondensed-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('A2GothicXCondensed-SemiBold.woff2') format('woff2'),
+        url('A2GothicXCondensed-SemiBold.woff') format('woff'),
+        url('A2GothicXCondensed-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic';
+    src: url('A2Gothic-Medium.eot');
+    src: local('A2 Gothic Medium'), local('A2Gothic-Medium'),
+        url('A2Gothic-Medium.eot?#iefix') format('embedded-opentype'),
+        url('A2Gothic-Medium.woff2') format('woff2'),
+        url('A2Gothic-Medium.woff') format('woff'),
+        url('A2Gothic-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2 Gothic X Condensed';
+    src: url('A2GothicXCondensed-Regular.eot');
+    src: local('A2 Gothic X Condensed Regular'), local('A2GothicXCondensed-Regular'),
+        url('A2GothicXCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('A2GothicXCondensed-Regular.woff2') format('woff2'),
+        url('A2GothicXCondensed-Regular.woff') format('woff'),
+        url('A2GothicXCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
