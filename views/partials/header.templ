@@ -55,8 +55,16 @@
   <div>
     <div class="flex items-center justify-center space-x-3">
     
+      <!-- Toggle Button -->
+      <a href="/?theme={{ if eq .ThemeClass "dark" }}light{{ else }}dark{{ end }}">
+        <div class="relative w-8 lg:w-12 h-4 lg:h-6 rounded-full cursor-pointer transition-all duration-300 {{ if eq .ThemeClass "dark" }} bg-gray-600 {{ else }} bg-secondary {{ end }}">
+          <!-- Circle inside the toggle -->
+          <div class="absolute left-1 top-1 w-2 h-2 lg:w-4 lg:h-4 rounded-full bg-white transition-all duration-300 {{ if eq .ThemeClass "dark" }} translate-x-4 lg:translate-x-6 {{ else }} translate-x-0 {{ end }}"></div>
+        </div>
+      </a>
+    
       <!-- Search Input with Icon -->
-      <div class="relative w-8 h-8 lg:w-auto lg:h-auto hidden xs:block">
+      <div class="relative w-8 h-8 lg:w-auto lg:h-auto hidden sm:block">
         <!-- Input Field -->
         <input 
           type="text" 
@@ -82,7 +90,7 @@
       </div>
       
       <!-- Profile Button -->
-      <div class="relative w-8 h-8 bg-slate-200 dark:bg-slate-600 rounded-full hidden xs:flex justify-center items-center cursor-pointer">
+      <div class="relative w-8 h-8 bg-slate-200 dark:bg-slate-600 rounded-full hidden sm:flex justify-center items-center cursor-pointer">
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M8.08014 8.51999C8.03348 8.51332 7.97348 8.51332 7.92014 8.51999C6.74681 8.47999 5.81348 7.51999 5.81348 6.33999C5.81348 5.13332 6.78681 4.15332 8.00014 4.15332C9.20681 4.15332 10.1868 5.13332 10.1868 6.33999C10.1801 7.51999 9.25348 8.47999 8.08014 8.51999Z" class="stroke-foreground" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           <path d="M12.4935 12.92C11.3068 14.0067 9.7335 14.6667 8.00017 14.6667C6.26684 14.6667 4.6935 14.0067 3.50684 12.92C3.5735 12.2934 3.9735 11.68 4.68684 11.2C6.5135 9.98671 9.50017 9.98671 11.3135 11.2C12.0268 11.68 12.4268 12.2934 12.4935 12.92Z" class="stroke-foreground" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
